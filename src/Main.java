@@ -16,10 +16,6 @@ public class Main {
         });
 
 
-
-
-
-
         Student stuA = new Student(1, "A", "M", 184);
         Student stuB = new Student(2, "B", "G", 163);
         Student stuC = new Student(3, "C", "M", 175);
