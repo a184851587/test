@@ -19,7 +19,6 @@ public class StreamTest {
         emps.add(new Emp(2, "zhangsan", 16));
         emps.add(new Emp(4, "lisi", 15));
 
-
         List<Integer> ids = emps.stream().map(Emp::getId).collect(Collectors.toList());
         List<String> names = emps.stream().map(Emp::getName).collect(Collectors.toList());
         ids.forEach(e -> System.out.println(e));
