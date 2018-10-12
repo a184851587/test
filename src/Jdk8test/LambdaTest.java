@@ -17,6 +17,11 @@ public class LambdaTest {
             System.out.println(a);
         });
 
+
+        Arrays.asList("a","b","c").forEach(a->{
+            System.out.println(a);
+        });
+
         List<Integer> listtest = new ArrayList();
 
         for (int i = 0; i <10 ; i++) {

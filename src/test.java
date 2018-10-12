@@ -1,18 +1,20 @@
+import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;
+import java.util.Arrays;
+import java.util.List;
 
 public class test {
 
     public static void main(String[] args) {
 
-        System.out.println(BigDecimal.valueOf(-1));
 
-        System.out.println(BigDecimal.ZERO);
-        System.out.println( "分支测试+1");
-
-        //dfsfsdfdsfds
-       ///ssssssfeeeee
-        System.out.println("加点东西");
+       /* new Rock();*/
 
 
+        String a = "a,b,";
+
+        List<String> a1 = Arrays.asList(a.split(","));
+
+        System.out.println(a1);
     }
 }
