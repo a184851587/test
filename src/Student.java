@@ -47,6 +47,10 @@ public class Student {
         this.height = height;
     }
 
+    public Student() {
+
+    }
+//ssssssssssssss
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Student{");
